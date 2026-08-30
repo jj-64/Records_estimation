@@ -1,0 +1,46 @@
+Config/testthat/edition: 3
+Package: Records
+Type: Package
+Title: Record-count Statistics for Multiple Stochastic Models
+Version: 0.1.0
+Authors@R: person("Jinane", "Jouni", ,"jinane.jouni@hotmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0007-7150-9065"))
+Description: Compute expected number of records, variance and exact/count distribution of
+    record counts under several models (IID, DTRW, LDM, YNM). Includes a registry-based
+    dispatcher and utilities to extend with new models.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.6)
+RoxygenNote: 7.3.3
+Imports:
+    stats,
+    utils,
+    dplyr,
+    tidyr,
+    magrittr,
+    caret,
+    maxLik,
+    VGAM,
+    combinat,
+    gmp,
+    moments,
+    numDeriv,
+    forecast,
+    pROC,
+    robustbase,
+    tsfeatures,
+    zoo,
+    psych,
+    randomForest,
+    fExtremes,
+    Dowd
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    devtools,
+    VGAM
+VignetteBuilder: knitr
+
